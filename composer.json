@@ -1,0 +1,35 @@
+{
+    "name": "rusty-eagle/php-countvectorizer",
+    "type": "library",
+    "description": "CountVectorizer - PHP version of Python's CountVectorizer",
+    "keywords": [
+        "text token counts"
+    ],
+    "homepage": "https://github.com/rusty-eagle/php-countvectorizer",
+    "license": "",
+    "authors": [
+        {
+            "name": "Jon"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCountVectorizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "scripts": {
+    }
+}
